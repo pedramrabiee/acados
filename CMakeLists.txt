@@ -276,6 +276,7 @@ add_subdirectory(acados)
 
 # Configure interfaces
 add_subdirectory(${PROJECT_SOURCE_DIR}/interfaces/acados_c)
+add_subdirectory(${PROJECT_SOURCE_DIR}/interfaces/acados_cpp)
 
 # Configure external libraries
 add_subdirectory(${EXTERNAL_SRC_DIR})

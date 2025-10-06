@@ -135,3 +135,6 @@ if(ACADOS_OCTAVE)
         set_tests_properties(octave_test_OSQP PROPERTIES DEPENDS octave_test_qpDUNES)
     endif()
 endif()
+
+# C++ Interface
+add_subdirectory(acados_cpp)
